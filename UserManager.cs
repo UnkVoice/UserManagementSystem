@@ -9,6 +9,7 @@ namespace UserManagementSystem
     public class UserManager
     {
         private List _users = new List();
+        private int _count;
 
         public void AddUser(string username)
         {
